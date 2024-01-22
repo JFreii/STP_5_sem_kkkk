@@ -1,0 +1,14 @@
+.background{
+    -fx-background-color: #2C4A52;
+}
+.button {
+    -fx-background-color: #8E9B97;
+    -fx-text-fill: #FFFF;
+}
+
+.background.table-view{
+    -fx-background-color: #F4EBDB;
+}
+.menu-bar.label{
+    -fx-text-fill: #FFFF;
+}

@@ -1,0 +1,15 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--&lt;!&ndash;    <session-factory>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/theater</property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="hibernate.connection.username">root</property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="hibernate.connection.password">2001lizapolikarpova</property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="show_sql">true</property>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </session-factory>&ndash;&gt;-->
+<!--</hibernate-configuration>-->

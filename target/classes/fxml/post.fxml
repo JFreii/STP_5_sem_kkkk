@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="441.0" prefWidth="600.0" styleClass="background" stylesheets="@../styles/search.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllerfx.PostController">
+   <children>
+      <Label layoutX="24.0" layoutY="67.0" prefHeight="17.0" prefWidth="34.0" text="Имя:" />
+      <Label layoutX="18.0" layoutY="101.0" prefHeight="17.0" prefWidth="59.0" text="Фамилия:" />
+      <Label layoutX="203.0" layoutY="14.0" prefHeight="17.0" prefWidth="177.0" text="       Информация о клиенте">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="firstname" layoutX="80.0" layoutY="62.0" />
+      <TextField fx:id="lastname" layoutX="80.0" layoutY="96.0" />
+      <Label layoutX="300.0" layoutY="67.0" prefHeight="17.0" prefWidth="59.0" text="Контакты:" />
+      <Label layoutX="300.0" layoutY="101.0" text="Возраст:" />
+      <TextField fx:id="contact" layoutX="371.0" layoutY="62.0" />
+      <TextField fx:id="age" layoutX="371.0" layoutY="96.0" />
+      <Label layoutX="227.0" layoutY="145.0" text="Информация о билете">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="221.0" prefHeight="17.0" prefWidth="70.0" text="Спектакль:" />
+      <ChoiceBox fx:id="placeChoiceBox" layoutX="380.0" layoutY="260.0" prefWidth="150.0" />
+      <Label layoutX="21.0" layoutY="265.0" text="Время:" />
+      <ChoiceBox fx:id="zoneChoiceBox" layoutX="376.0" layoutY="208.0" onAction="#fillingSeats" prefWidth="150.0" />
+      <Label layoutX="29.0" layoutY="308.0" text="Зал:" />
+      <ChoiceBox fx:id="hallChoiceBox" layoutX="93.0" layoutY="303.0" onAction="#fillingZones" prefWidth="150.0" />
+      <Label layoutX="303.0" layoutY="221.0" prefHeight="17.0" prefWidth="42.0" text="Зона:" />
+      <ChoiceBox fx:id="perfomChoiceBox" layoutX="93.0" layoutY="216.0" onAction="#TimePerf" prefWidth="150.0" />
+      <Label layoutX="300.0" layoutY="265.0" prefHeight="17.0" prefWidth="51.0" text="Место:" />
+      <ChoiceBox fx:id="timeChoiceBox" layoutX="93.0" layoutY="260.0" prefWidth="150.0" />
+      <Label layoutX="310.0" layoutY="308.0" text="Цена:" />
+      <Button fx:id="ok" layoutX="304.0" layoutY="378.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="111.0" stylesheets="@../styles/rootview.css" text="ОК" textFill="WHITE" />
+      <DatePicker fx:id="calendar" layoutX="18.0" layoutY="171.0" onAction="#Choice" />
+      <Label fx:id="pricelabel" layoutX="395.0" layoutY="308.0" prefHeight="17.0" prefWidth="111.0" text="Нет информации" />
+      <Button fx:id="closeButton" layoutX="168.0" layoutY="378.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="104.0" stylesheets="@../styles/rootview.css" text="Закрыть" />
+   </children>
+</AnchorPane>

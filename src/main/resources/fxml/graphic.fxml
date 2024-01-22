@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="498.0" prefWidth="1024.0" styleClass="background" stylesheets="@../styles/author.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllerfx.GraphicController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="24.0" layoutY="60.0" prefHeight="352.0" prefWidth="472.0" title="Посещение">
+        <xAxis>
+          <CategoryAxis label="Спектакли" side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" label="Купленные билеты" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <BarChart fx:id="barChart2" layoutX="493.0" layoutY="67.0" prefHeight="345.0" prefWidth="449.0" title="Популярность зон">
+        <xAxis>
+          <CategoryAxis label="Типы мест в зале" side="BOTTOM" fx:id="x2" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y2" label="Купленные билеты" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
